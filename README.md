@@ -1,3 +1,8 @@
+https://youtu.be/gyMwXuJrbJQ?t=65511
+
+yarn add magic-sdk @walletconnect/web3-provider @web3auth/web3auth
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
