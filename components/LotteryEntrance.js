@@ -71,30 +71,6 @@ export default function LotteryEntrance() {
         })
     }
 
-    // return (
-    //     <div>
-    //         hi from lottery entrance
-    //         {raffleAddress ? (
-    //             <div>
-    //                 <button
-    //                     onClick={async function () {
-    //                         await enterRaffle({
-    //                             onSuccess: handleSuccess,
-    //                             onError: (error) => console.log(error),
-    //                         })
-    //                     }}
-    //                 >
-    //                     Enter Raffle
-    //                 </button>
-    //                 Entrance fee:{ethers.utils.formatUnits(entranceFee, "ether")}ETH
-    //                 <div> Number of Players:{numberOfPlayers}</div>
-    //                 recentWinner:{recentWinner}
-    //             </div>
-    //         ) : (
-    //             <div> No Raffle address detected</div>
-    //         )}
-    //     </div>
-    // )
     return (
         <div className="p-5">
             <h1 className="py-4 px-4 font-bold text-3xl">Lottery</h1>
@@ -121,6 +97,7 @@ export default function LotteryEntrance() {
                     <div>Entrance Fee: {ethers.utils.formatUnits(entranceFee, "ether")} ETH</div>
                     <div>The current number of players is: {numberOfPlayers}</div>
                     <div>The most previous winner was: {recentWinner}</div>
+                    <div>WENA WENA</div>
                 </>
             ) : (
                 <div>Please connect to a supported chain </div>
